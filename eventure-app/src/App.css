@@ -4,8 +4,10 @@
   font-style: normal;
 }
 
-header {
-position: fixed;}
+#AllBanner {
+position: fixed;
+z-index: 1;
+}
 
 
 #backgroundbanner {
@@ -17,15 +19,15 @@ position: fixed;}
   font-family: Monoton;
   position: absolute;
   color: white;
-  top: 20px;
+  top: 0px;
   left: 15px;
 }
 
 .Header-button {
   display: inline-block; 
-  margin: 0 10px; /* Espacio entre los elementos */
-  color: rgb(255, 255, 255); /* Asegúrate de que el texto sea visible */
-  top: -55px; /* Ajusta la posición vertical según sea necesario */
+  margin: 0 10px; 
+  color: rgb(255, 255, 255); 
+  top: -55px;
   position: relative;
   left: 890px;
   font-style: italic;

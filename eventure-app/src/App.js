@@ -1,14 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import Departamentos from './Departamentos'; 
 
-// Archivo CSS de Bootstrap
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-function banner() {
+function App() {
   return (
     <div className="App">
-
       {/* Fonts */}
       <>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,15 +13,30 @@ function banner() {
 
       {/* Fin fonts */}
       <header id="AllBanner">
-      <img id="backgroundbanner" src="/backgroundbanner.png" alt="Background banner"/>
-      <h1 id="Name" >Eventure</h1>
-      <h5 class="Header-button" >SOBRE NOSOTROS</h5>
-      <h5 class="Header-button">EVENTOS</h5>
-      <h5 class="Header-button">CONTACTOS</h5>
+        <img id="backgroundbanner" src="/backgroundbanner.png" alt="Background banner"/>
+        <h1 id="Name">Eventure</h1>
+        <h5 className="Header-button">SOBRE NOSOTROS</h5>
+        <h5 className="Header-button">EVENTOS</h5>
+        <h5 className="Header-button">CONTACTOS</h5>
       </header>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
     </div>
   );
 }
 
-export default banner;
+// Esta funcion renderiza too bloque por bloque tanto el banner, departamentos etc.
+function AllPage() {
+  return (
+    <>
+      <App />  {/* Componente principal */}
+      <Departamentos />  {/* Componente separado */}
+    </>
+  );
+}
+
+export default AllPage;
