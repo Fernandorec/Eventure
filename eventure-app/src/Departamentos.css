@@ -12,6 +12,8 @@
     margin-top: -17px;
     color: white;
     transition: background-color 1s, 1s;
+    padding: 0;
+
   }
 
   #box1:hover, #box2:hover, #box3:hover, #box4:hover, #box5:hover, #box6:hover, #box7:hover, #box8:hover, #box9:hover, #box10:hover, #box11:hover, #box12:hover, #box13:hover, #box14:hover {
@@ -19,13 +21,15 @@
   }
 
   p {
-    margin-top: 100px;
+    height: 100%; 
+    line-height: 228px; 
     font-style: italic;
     font-weight: 350;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
-    }
-
+    margin: 0; 
+  }
+  
   #box1{
     background-color: #6e0d83;
   }
@@ -93,3 +97,4 @@
   #box14{
     background-color: #720074;
   }
+

@@ -5,32 +5,22 @@
 }
 
 #AllBanner {
-position: fixed;
-z-index: 1;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-
-#backgroundbanner {
-  width: 1000%;
-  height: 90px;
+#Color{
+  background-color: #3d2669;
 }
 
-#Name{
+#Name {
   font-family: Monoton;
-  position: absolute;
-  color: white;
-  top: 0px;
-  left: 15px;
+  font-size: 37px;
 }
 
-.Header-button {
-  display: inline-block; 
-  margin: 0 10px; 
-  color: rgb(255, 255, 255); 
-  top: -55px;
-  position: relative;
-  left: 890px;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 17px;
+.navbar {
+  width: 100%;
 }
