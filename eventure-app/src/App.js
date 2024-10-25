@@ -1,5 +1,7 @@
 import "./App.css";
 import Departamentos from "./Departamentos";
+import Footer from "./Footer";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 
@@ -84,7 +86,8 @@ function AllPage() {
   return (
     <>
       <App /> {/* Componente principal */}
-      <Departamentos /> {/* Componente separado */}
+      <Departamentos /> {/* Componente separado */} 
+      <Footer />
     </>
   );
 }
